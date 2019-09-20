@@ -1,3 +1,21 @@
+# Task 04- Docker DevOps 1.0
+**Update for Task03**
+##What is Docker Compose?
+```
+Use yaml files to configure application services (docker-compose.yaml)
+Can start all the services with a single command ( docker-compose up )
+Can stop all the service with a single command ( docker-compose down )
+Able to scale up the specific services when required.
+```
+## Mind Map Docker Compose
+```
+https://coggle.it/diagram/XYPhlxz2ijv2Evy0/t/-/e0214b4484d70b47c7c2360e53ec2e7400497422deca8d7c7da59f2d3379ee78
+```
+## Clone git Repository
+```
+git clone https://github.com/FerHinojosa/AWT04-WebService.git
+git checkout develop
+```
 # WebService
 This project consists in a format converter tool providing the services to convert video format i.e. .mp4 to .flv, image to text and image to pdf.
 ## Getting Started

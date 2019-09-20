@@ -1,10 +1,5 @@
-#my dockerfile
-
-
-# add dockerfile to the DEV project (repo forked)
-# fix dockerfile
-# update the Readme file of the DEV project (repo forked)
-# Install Jenkins Server in Linux (ubuntu instance)
-# Get running Jenkins Server
-# Make a report of all tasks available for gradle available
-
+FROM ubuntu
+LABEL isaacvasquez@fundacion-jala.org
+RUN apt-get update
+RUN apt install openjdk-8-jre-headless
+COPY . /AWT04-WebService
